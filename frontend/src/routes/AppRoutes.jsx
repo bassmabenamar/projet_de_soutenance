@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import LandingPage from "../pages/public/LandingPage";
 import AboutPage from "../pages/public/AboutPage";
 import NotebookPage from "../pages/public/NotebookPage";
-import CommandePage from "../pages/public/CommandePage";
+//import CommandePage from "../pages/public/CommandePage";
 
 
 /* AUTH */
@@ -57,7 +57,6 @@ export default function AppRoutes() {
       <Route path="/" element={<LandingPage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/buy-notebook" element={<NotebookPage />} />
-      <Route path="/commande" element={<CommandePage />} />
 
       {/* 🔐 AUTH */}
       <Route path="/login" element={<LoginPage />} />

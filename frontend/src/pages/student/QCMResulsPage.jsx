@@ -295,23 +295,6 @@ const QCMResultsPage = () => {
                 </p>
               </div>
 
-              {/* actions */}
-              <div className="qr-actions">
-                <button
-                  className="qr-btn-primary"
-                  onClick={() => navigate(`/student/qcm/${results.category || results.language_id}`)}
-                >
-                  <RotateCcw size={16} />
-                  Rejouer
-                </button>
-                <button
-                  className="qr-btn-secondary"
-                  onClick={() => navigate('/student/qcm')}
-                >
-                  Changer de Quiz
-                </button>
-              </div>
-
             </div>
 
             {/* ── STATS ── */}

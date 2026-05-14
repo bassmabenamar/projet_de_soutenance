@@ -11,7 +11,7 @@ const PAGE_DATA = {
   product: {
     name: "Codelink Notebook",
     subtitle: "Premium Edition",
-    price: "99",
+    price: "149",
     currency: "DH",
     description: "Accédez à une plateforme complète avec un simple scan. Transformez votre façon d'apprendre le code avec l'alliance parfaite du papier et du numérique."
   },
@@ -79,13 +79,7 @@ const NotebookPage = () => {
               {PAGE_DATA.product.description}
             </p>
 
-            <Link
-              to="/commande"
-              className="inline-flex items-center gap-3 bg-[#e5522d] text-white px-8 py-4 rounded-xl font-medium text-[15px] hover:bg-[#cc4522] hover:-translate-y-0.5 transition-all group"
-            >
-              Commander maintenant
-              <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-            </Link>
+            
           </div>
 
           {/* Image */}
@@ -147,12 +141,7 @@ const NotebookPage = () => {
                 <span className="text-6xl font-medium tracking-tight">{PAGE_DATA.product.price}</span>
                 <span className="text-xl font-medium mt-2">{PAGE_DATA.product.currency}</span>
               </div>
-              <Link
-                to="/commande"
-                className="bg-[#e5522d] px-8 py-4 rounded-xl font-medium text-sm hover:bg-[#cc4522] transition-all"
-              >
-                Valider ma commande
-              </Link>
+              
             </div>
           </div>
         </section>
